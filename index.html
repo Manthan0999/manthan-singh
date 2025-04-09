@@ -350,41 +350,73 @@
                </section>
 
                <!-- Projects Section -->
-               <section class="colorlib-projects" data-section="projects">
-                  <div class="colorlib-narrow-content">
-                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                           <span class="heading-meta">What I've Built</span>
-                           <h1 class="colorlib-heading">Featured <span style="color: #f9bf3f">Projects</span></h1>
-                        </div>
+<section class="colorlib-projects" data-section="projects">
+   <div class="colorlib-narrow-content">
+      <div class="row">
+         <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+            <span class="heading-meta">What I've Built</span>
+            <h1 class="colorlib-heading">Featured <span style="color: #f9bf3f">Projects</span></h1>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12">
+            <!-- Use the same timeline structure here -->
+            <div class="timeline-centered">
+
+               <!-- Project 1 -->
+               <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                  <div class="timeline-entry-inner">
+                     <!-- You can switch "color-2" to a different color class if desired -->
+                     <div class="timeline-icon color-2">
+                        <i class="fa fa-code"></i>
                      </div>
-                     <div class="row">
-                        <div class="col-md-12">
-                           <!-- Project 1 -->
-                           <div class="project animate-box" data-animate-effect="fadeInRight">
-                              <h2>AWS CodeDeploy and Robust Containerization</h2>
-                              <p><strong>Tech Stack:</strong> GitLab CI/CD, Docker, Python, Datadog, Akamai</p>
-                              <ul class="details">
-                                 <li><i class="icon-check2"></i> Created GitLab CI/CD pipelines integrated with AWS CodeDeploy to accelerate code releases by 40%, standardizing Docker images for seamless deployments.</li>
-                                 <li><i class="icon-check2"></i> Leveraged Akamai CDN and WAF rules to reduce latency by 25%, enhancing security and user experience.</li>
-                                 <li><i class="icon-check2"></i> Employed Datadog for metrics, alarms, and incident handling, ensuring robust monitoring and quick response to production issues.</li>
-                                 <li><i class="icon-check2"></i> Developed Python automation scripts and documented procedures for cross-team collaboration and at-scale rollouts.</li>
-                              </ul>
-                           </div>
-                           <!-- Project 2 -->
-                           <div class="project animate-box" data-animate-effect="fadeInRight" style="margin-top: 40px;">
-                              <h2>Large-Scale AWS Migrations and On-Call Ops</h2>
-                              <p><strong>Tech Stack:</strong> Terraform, ECS, EKS</p>
-                              <ul class="details">
-                                 <li><i class="icon-check2"></i> Orchestrated large-scale AWS migrations (200+ accounts) with multi-region failover, cross-account IAM, and cost controls for a 99.99% SLA.</li>
-                                 <li><i class="icon-check2"></i> Streamlined container orchestration with ECS and EKS using Terraform-based IaC for networking, security groups, and autoscaling, reducing provisioning times by 50%.</li>
-                                 <li><i class="icon-check2"></i> Implemented on-call rotation and alerting pipelines, cutting incident response times by 40% and maintaining 24/7 uptime.</li>
-                              </ul>
-                           </div>
-                        </div>
+                     <div class="timeline-label">
+                        <h2>AWS CodeDeploy and Robust Containerization</h2>
+                        <p><strong>Tech Stack:</strong> GitLab CI/CD, Docker, Python, Datadog, Akamai</p>
+                        <ul class="details">
+                           <li><i class="icon-check2"></i> Created GitLab CI/CD pipelines integrated with AWS CodeDeploy to accelerate code releases by 40%, standardizing Docker images for seamless deployments.</li>
+                           <li><i class="icon-check2"></i> Leveraged Akamai CDN and WAF rules to reduce latency by 25%, enhancing security and user experience.</li>
+                           <li><i class="icon-check2"></i> Employed Datadog for metrics, alarms, and incident handling, ensuring robust monitoring and quick response to production issues.</li>
+                           <li><i class="icon-check2"></i> Developed Python automation scripts and documented procedures for cross-team collaboration and at-scale rollouts.</li>
+                        </ul>
                      </div>
                   </div>
-               </section>
+               </article>
+
+               <!-- Project 2 -->
+               <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                  <div class="timeline-entry-inner">
+                     <!-- You can switch "color-1" to a different color class if desired -->
+                     <div class="timeline-icon color-1">
+                        <i class="fa fa-code"></i>
+                     </div>
+                     <div class="timeline-label">
+                        <h2>Large-Scale AWS Migrations and On-Call Ops</h2>
+                        <p><strong>Tech Stack:</strong> Terraform, ECS, EKS</p>
+                        <ul class="details">
+                           <li><i class="icon-check2"></i> Orchestrated large-scale AWS migrations (200+ accounts) with multi-region failover, cross-account IAM, and cost controls for a 99.99% SLA.</li>
+                           <li><i class="icon-check2"></i> Streamlined container orchestration with ECS and EKS using Terraform-based IaC, reducing provisioning times by 50%.</li>
+                           <li><i class="icon-check2"></i> Implemented on-call rotation and alerting pipelines, cutting incident response times by 40% and maintaining 24/7 uptime.</li>
+                        </ul>
+                     </div>
+                  </div>
+               </article>
+
+               <!-- Add more projects as needed -->
+               
+               <!-- Required blank article for the timeline end -->
+               <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                  <div class="timeline-entry-inner">
+                     <div class="timeline-icon color-none"></div>
+                  </div>
+               </article>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
 
                <!-- Education Section -->
                <section class="colorlib-experience" data-section="education">
